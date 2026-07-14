@@ -1,59 +1,248 @@
-# StockhiveAngular
+# 📦 StockHive - Inventory Management System
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.32.
+A modern Inventory Management System built using **Angular 20**, **Firebase Authentication**, **Cloud Firestore**, and **Firebase Hosting**.
 
-## Development server
+The application allows users to securely manage inventory, track stock updates, and maintain product history with a clean and responsive user interface.
 
-To start a local development server, run:
+---
+
+## 🚀 Live Demo
+
+🌐 https://stockhive-cb3e0.web.app
+
+---
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/Ramakrishna35543/StockHive-Angular
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+
+- Email & Password Login
+- User Registration
+- Google Sign-In
+- Secure Firebase Authentication
+- Logout
+
+---
+
+## 📦 Product Management
+
+- Add New Product
+- Edit Product
+- Delete Product
+- Search Products
+- Real-time Firestore Updates
+
+---
+
+## 📊 Dashboard
+
+- Modern Responsive Dashboard
+- Quick Navigation Cards
+- Inventory Overview
+- User Friendly UI
+
+---
+
+## 📜 Stock History
+
+- Track Added Products
+- Track Updated Products
+- Date & Time Logging
+- Firestore History Collection
+
+---
+
+## 🎨 User Interface
+
+- Bootstrap 5
+- Bootstrap Icons
+- Responsive Design
+- Modern Cards
+- Clean Dashboard
+- Professional Tables
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Version |
+|------------|----------|
+| Angular | 20 |
+| TypeScript | Latest |
+| Firebase Authentication | ✓ |
+| Cloud Firestore | ✓ |
+| Firebase Hosting | ✓ |
+| Bootstrap 5 | ✓ |
+| Bootstrap Icons | ✓ |
+
+---
+
+# 📁 Project Structure
+
+```
+src/
+│
+├── app/
+│   ├── components/
+│   │
+│   ├── login/
+│   ├── dashboard/
+│   ├── add-product/
+│   ├── product-list/
+│   ├── stock-history/
+│   │
+│   ├── models/
+│   ├── services/
+│   │
+│   ├── auth.service.ts
+│   ├── firestore.service.ts
+│   │
+│   ├── app.routes.ts
+│   └── app.ts
+│
+├── environments/
+│
+├── styles.css
+│
+└── main.ts
+```
+
+---
+
+# 🔥 Firebase Services Used
+
+- Firebase Authentication
+- Cloud Firestore Database
+- Firebase Hosting
+
+---
+
+# 📸 Application Screens
+
+### Login Page
+<img width="960" height="540" alt="Screenshot 2026-07-14 172740" src="https://github.com/user-attachments/assets/73414807-e05e-45b5-a655-320c5ecf1bf3" />
+
+
+- Email Login
+- Google Login
+- Create Account
+
+---
+
+### Dashboard
+<img width="960" height="540" alt="Screenshot 2026-07-14 172840" src="https://github.com/user-attachments/assets/ccfa1e56-ddb0-4684-a5b9-0fa9f2dcf403" />
+
+
+- Add Product
+- Product List
+- Stock History
+
+---
+
+### Product Management
+<img width="960" height="540" alt="Screenshot 2026-07-14 172940" src="https://github.com/user-attachments/assets/ae648d4c-7de5-43f2-aa97-e2149811106c" />
+
+
+- Add Product
+- Edit Product
+- Delete Product
+- Search Product
+
+---
+
+### Stock History
+<img width="960" height="540" alt="Screenshot 2026-07-14 172956" src="https://github.com/user-attachments/assets/4a9edcab-1622-48b5-8f44-94b0be655f3b" />
+
+
+- Product Added
+- Product Updated
+- Date & Time Tracking
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ramakrishna35543/StockHive-Angular.git
+```
+
+Move into project
+
+```bash
+cd StockHive-Angular
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run project
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+# 🚀 Build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+# 🚀 Deploy to Firebase
 
 ```bash
-ng test
+firebase deploy
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+# 📸 Screenshots
 
-```bash
-ng e2e
-```
+- Login Page
+- Dashboard
+- Add Product
+- Product List
+- Stock History
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+# 👨‍💻 Developed By
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Chelikani Ramakrishna**
+
+MCA (AI & Machine Learning)
+
+RNS Institute of Technology, Bangalore
+
+GitHub:
+https://github.com/Ramakrishna35543
+
+---
+
+# 📄 License
+
+This project is developed for educational and internship purposes.
+
+---
+
+## ⭐ If you like this project, don't forget to Star the repository!
