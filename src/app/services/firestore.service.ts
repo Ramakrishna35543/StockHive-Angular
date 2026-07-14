@@ -13,6 +13,7 @@ import { Observable } from 'rxjs';
 
 import { Product } from '../models/product';
 import { StockHistory } from '../models/stock-history';
+import { Movement } from '../models/movement';
 
 @Injectable({
   providedIn: 'root'
@@ -76,4 +77,24 @@ export class FirestoreService {
       idField: 'id'
     }) as Observable<StockHistory[]>;
   }
+
+  // ==========================
+  // Movement Methods
+  // ==========================
+
+  // Add Movement
+  addMovement(movement: Movement) {
+    const movementRef = collection(this.firestore, 'movements');
+    return addDoc(movementRef, movement);
+  }
+
+  // Get All Movements
+  getMovements(): Observable<Movement[]> {
+    const movementRef = collection(this.firestore, 'movements');
+
+    return collectionData(movementRef, {
+      idField: 'id'
+    }) as Observable<Movement[]>;
+  }
+
 }
