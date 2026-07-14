@@ -1,0 +1,62 @@
+body{
+    background:#f4f7fc;
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+}
+
+.card-header{
+
+    border-radius:18px 18px 0 0 !important;
+
+}
+
+.table{
+
+    background:white;
+
+}
+
+.table tbody tr{
+
+    transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#eef7ff;
+
+    transform:scale(1.01);
+
+}
+
+.badge{
+
+    padding:8px 14px;
+
+    font-size:14px;
+
+    border-radius:20px;
+
+}
+
+.table td,
+.table th{
+
+    vertical-align:middle;
+
+}
+
+.display-1{
+
+    font-size:70px;
+
+    color:#adb5bd;
+
+}

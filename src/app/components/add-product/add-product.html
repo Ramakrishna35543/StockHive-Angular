@@ -1,0 +1,86 @@
+<div class="container mt-5">
+
+  <div class="card shadow-lg border-0 rounded-4 p-4 mx-auto" style="max-width:650px;">
+
+    <h2 class="text-center text-primary fw-bold mb-4">
+      📦 {{ isEdit ? 'Edit Product' : 'Add Product' }}
+    </h2>
+
+    <form>
+
+      <!-- Product Name -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold">
+          Product Name
+        </label>
+
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          placeholder="Enter Product Name"
+          [(ngModel)]="product.name"
+          name="name">
+      </div>
+
+      <!-- SKU -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold">
+          SKU
+        </label>
+
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          placeholder="Enter SKU"
+          [(ngModel)]="product.sku"
+          name="sku">
+      </div>
+
+      <!-- Quantity -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold">
+          Quantity
+        </label>
+
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Enter Quantity"
+          [(ngModel)]="product.quantity"
+          name="quantity">
+      </div>
+
+      <!-- Reorder Level -->
+      <div class="mb-4">
+        <label class="form-label fw-semibold">
+          Reorder Level
+        </label>
+
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Enter Reorder Level"
+          [(ngModel)]="product.reorderLevel"
+          name="reorderLevel">
+      </div>
+
+      <div class="d-grid">
+
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          (click)="saveProduct()">
+
+          <i class="bi bi-check-circle-fill me-2"></i>
+
+          {{ isEdit ? 'Update Product' : 'Save Product' }}
+
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</div>

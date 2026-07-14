@@ -1,0 +1,50 @@
+body{
+    background:#f4f7fc;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+}
+
+.card-header{
+    border-radius:18px 18px 0 0 !important;
+}
+
+.form-control{
+    height:48px;
+    border-radius:12px;
+}
+
+.table{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#212529;
+    color:#fff;
+}
+
+.table tbody tr{
+    transition:.3s;
+}
+
+.table tbody tr:hover{
+    background:#eef5ff;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.badge{
+    font-size:14px;
+    padding:8px 12px;
+}
+
+.table td,
+.table th{
+    vertical-align:middle;
+}

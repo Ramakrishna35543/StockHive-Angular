@@ -1,0 +1,71 @@
+<div class="login-page">
+
+    <div class="login-card">
+
+        <div class="text-center mb-4">
+
+            <i class="bi bi-box-seam-fill logo"></i>
+
+            <h1>StockHive</h1>
+
+            <p>Inventory Management System</p>
+
+        </div>
+
+        <div class="mb-3">
+
+            <label>Email Address</label>
+
+            <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                [(ngModel)]="email">
+
+        </div>
+
+        <div class="mb-4">
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                class="form-control"
+                placeholder="Enter your password"
+                [(ngModel)]="password">
+
+        </div>
+
+        <button
+            class="btn btn-primary w-100 mb-3"
+            (click)="login()">
+
+            <i class="bi bi-box-arrow-in-right"></i>
+
+            Login
+
+        </button>
+
+        <button
+            class="btn btn-outline-success w-100 mb-3"
+            (click)="signup()">
+
+            <i class="bi bi-person-plus-fill"></i>
+
+            Create Account
+
+        </button>
+
+        <button
+            class="btn btn-danger w-100"
+            (click)="googleLogin()">
+
+            <i class="bi bi-google"></i>
+
+            Continue with Google
+
+        </button>
+
+    </div>
+
+</div>
