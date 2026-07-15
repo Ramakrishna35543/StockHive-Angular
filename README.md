@@ -137,7 +137,8 @@ src/
 ---
 
 ### Dashboard
-<img width="960" height="540" alt="Screenshot 2026-07-14 172840" src="https://github.com/user-attachments/assets/ccfa1e56-ddb0-4684-a5b9-0fa9f2dcf403" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/d1c84ed7-60a9-4c1f-a53c-8f637275b6d1" />
+
 
 
 - Add Product
