@@ -146,7 +146,8 @@ src/
 ---
 
 ### Product Management
-<img width="960" height="540" alt="Screenshot 2026-07-14 172940" src="https://github.com/user-attachments/assets/ae648d4c-7de5-43f2-aa97-e2149811106c" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/0f5c1c59-b534-4fcf-b8d1-d3ad90d8d4c3" />
+
 
 
 - Add Product
@@ -157,7 +158,8 @@ src/
 ---
 
 ### Stock History
-<img width="960" height="540" alt="Screenshot 2026-07-14 172956" src="https://github.com/user-attachments/assets/4a9edcab-1622-48b5-8f44-94b0be655f3b" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/0f5c1c59-b534-4fcf-b8d1-d3ad90d8d4c3" />
+
 
 
 - Product Added
