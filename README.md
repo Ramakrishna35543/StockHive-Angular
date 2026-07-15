@@ -126,7 +126,8 @@ src/
 # 📸 Application Screens
 
 ### Login Page
-<img width="960" height="540" alt="Screenshot 2026-07-14 172740" src="https://github.com/user-attachments/assets/73414807-e05e-45b5-a655-320c5ecf1bf3" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/57f53db5-1eb4-4159-b936-27e761b564d5" />
+
 
 
 - Email Login
