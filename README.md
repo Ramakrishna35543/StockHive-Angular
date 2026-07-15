@@ -158,7 +158,8 @@ src/
 ---
 
 ### Stock History
-<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/0f5c1c59-b534-4fcf-b8d1-d3ad90d8d4c3" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/80cae069-ae88-435e-b790-2f4ad96844f7" />
+
 
 
 
